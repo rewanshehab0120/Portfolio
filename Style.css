@@ -313,19 +313,19 @@ header .h-content .h-text {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-#s-table {
+#s-table{
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
 }
 
-#s-table td {
+#s-table td{
     padding: 15px;
     vertical-align: top;
     width: 50%;
 }
 
-.service-card {
+.service-card{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -337,7 +337,7 @@ header .h-content .h-text {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.service-card:hover {
+.service-card:hover{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
     /*بصغر بيها */
@@ -346,19 +346,19 @@ header .h-content .h-text {
     transition: all 1s ease;
 }
 
-.service-card img {
+.service-card img{
     width: 100px;
     height: auto;
     margin-bottom: 15px;
 }
 
-.service-card h3 {
+.service-card h3{
     margin: 0 0 10px;
     font-size: 20px;
     color: rgb(7, 33, 39);
 }
 
-.service-card p {
+.service-card p{
     margin: 0;
     font-size: 14px;
     text-align: center;
@@ -368,7 +368,7 @@ header .h-content .h-text {
 
 
 
-#portfolio h2 {
+#portfolio h2{
     text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
@@ -377,11 +377,11 @@ header .h-content .h-text {
     letter-spacing: 1px;
 }
 
-#portfolio {
+#portfolio{
     background-color: #ecf0f3;
 }
 
-.p-conternar {
+.p-conternar{
     text-align: center;
     padding: 20px;
     max-width: 1100px;
@@ -390,20 +390,20 @@ header .h-content .h-text {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-#portfolio table {
+#portfolio table{
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
 }
 
-#portfolio td {
+#portfolio td{
     padding: 15px;
     vertical-align: top;
     width: 33.33%;
     /* ثلاث كروت في الصف */
 }
 
-.portfolio-card {
+.portfolio-card{
     background-color: white;
     padding-top: 80px;
 
@@ -417,7 +417,7 @@ header .h-content .h-text {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-card:hover {
+.portfolio-card:hover{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
     /*بصغر بيها */
@@ -427,7 +427,7 @@ header .h-content .h-text {
 }
 
 
-.portfolio-card a {
+.portfolio-card a{
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 10px;
@@ -435,7 +435,7 @@ header .h-content .h-text {
     color: rgb(152, 152, 243);
 }
 
-.portfolio-card a :hover {
+.portfolio-card a:hover{
     text-decoration: none;
     background-color: #cbe7f6;
     font-size: large;
@@ -448,29 +448,29 @@ header .h-content .h-text {
     /* لتأثير سلس */
 }
 
-.portfolio-card img {
+.portfolio-card img{
     width: 250px;
     /* حجم موحد للصور */
     height: auto;
     margin-bottom: 15px;
 }
 
-.portfolio-card h2 {
+.portfolio-card h2{
     margin: 0 0 10px;
     font-size: 20px;
 }
 
-.portfolio-card a {
+.portfolio-card a{
     text-decoration: none;
 }
 
 
 
-#contact {
+#contact{
     padding: 4rem 0;
 }
 
-#Contact h2 {
+#Contact h2{
     text-align: center;
     margin-bottom: 20px;
     font-size: 30px;
@@ -479,7 +479,7 @@ header .h-content .h-text {
     letter-spacing: 1px;
 }
 
-.C-container {
+.C-container{
     text-align: center;
     padding: 20px;
     max-width: 1100px;
@@ -488,7 +488,7 @@ header .h-content .h-text {
     box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-#Contact table {
+#Contact table{
     width: 100%;
     border-collapse: collapse;
     margin: 20px auto;
@@ -496,26 +496,26 @@ header .h-content .h-text {
     padding: 0;
 }
 
-#Contact td {
+#Contact td{
     padding: 15px;
     vertical-align: middle;
     width: 50%;
 }
 
 .row1,
-.row2 {
+.row2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.row1 img {
+.row1 img{
     max-width: 100%;
     height: auto;
 }
 
-form {
+form{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -523,7 +523,7 @@ form {
 }
 
 input,
-textarea {
+textarea{
     padding: 10px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -531,11 +531,11 @@ textarea {
     width: 100%;
 }
 
-textarea {
+textarea{
     resize: vertical;
 }
 
-.but {
+.but{
     padding: 10px 20px;
     background-color: rgb(7, 33, 39);
     color: white;
@@ -544,7 +544,7 @@ textarea {
     cursor: pointer;
 }
 
-.but:hover {
+.but:hover{
     background-color: rgb(29, 135, 159);
     transition: background-color 0.5s ease;
     transition: all 1s ease; 
@@ -556,4 +556,5 @@ textarea {
     padding: 2px 0 ;
     text-align: center;
 }
+
 
